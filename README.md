@@ -4,10 +4,13 @@ This project implements a watchdog system designed to monitor and revive a user 
 
 ## Overview
 
-The watchdog system consists of two main processes: the user process and the watchdog process. 
-The user process performs the main application logic, while the watchdog process monitors its health. 
-The watchdog sends ping signals to the user process and checks for timely responses. 
-If the user process fails to respond within a specified tolerance, the watchdog restarts it.
+* The watchdog system consists of two main processes: the user process and the watchdog process.
+
+* The user process performs the main application logic, while the watchdog process monitors its health. 
+
+* The watchdog sends ping signals to the user process and checks for timely responses. 
+
+* If the user process fails to respond within a specified tolerance, the watchdog restarts it.
 
 ## Compilation
 
