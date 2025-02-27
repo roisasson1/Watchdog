@@ -1,4 +1,4 @@
-# Watchdog Implementation
+# Software Watchdog
 
 This project implements a watchdog system designed to monitor and revive a user process if it becomes unresponsive.
 
